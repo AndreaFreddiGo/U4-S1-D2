@@ -12,6 +12,25 @@
             _cognome = cognome;
             _eta = eta;
         }
+
+       public void GetNome()
+        {
+            Console.WriteLine($"Nome: {_nome}");
+        }
+
+        public void GetCognome()
+        {
+            Console.WriteLine($"Cognome: {_cognome}");
+        }
+
+        public void GetEta()
+        {
+            Console.WriteLine($"Età: {_eta}");
+        }
+        public void GetDettagli ()
+        {
+            Console.WriteLine($"Nome: {_nome} Cognome: {_cognome} Età: {_eta}");
+        }
     }
 
 
